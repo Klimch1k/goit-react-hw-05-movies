@@ -17,7 +17,7 @@ const MovieDetails = () => {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
-      <Link to={{ pathname: location.state.from === '/' ? '/' : '/movies' }}>
+      <Link to={{ pathname: location.state?.from === '/' ? '/' : '/movies' }}>
         Go back
       </Link>
 
